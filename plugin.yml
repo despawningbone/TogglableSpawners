@@ -1,0 +1,12 @@
+name: TogglableSpawners
+description: A plugin that allows redstone to be used on spawners directly.
+version: 1.0.1
+author: despawningbone
+
+main: me.despawningbone.togglespawner.TSMain
+
+commands:
+    togglablespawner:
+        description: A command mainly for reloading.
+        usage: /<command> [reload]
+        aliases: [ts, togglespawner, tspawner]

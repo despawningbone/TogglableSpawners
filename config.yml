@@ -1,0 +1,18 @@
+# ----------------------------------------
+#   Togglable Spawners v1.0.1 config file
+#        Created by despawningbone
+# ---------------------------------------- 
+
+#Choose which worlds where redstone will not be able to be used
+#for toggling the spawners.
+Disabled-in-worlds:
+  #- Disabled_World
+  -
+
+#Allow spawners to be indirectly powered?
+Allow-indirect-power: true
+  
+#Enable debug logs?
+#This will output the spawner's location to the console
+#when the spawn event is fired and is cancelled by the plugin.
+debug: false
